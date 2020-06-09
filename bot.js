@@ -16,16 +16,7 @@ const T = new Twit({
     strictSSL: true, // * optional - requires SSL certificates to be valid.
 });
 
-//
-//  tweet 'hello world!'
-//
-// T.post("statuses/update", { status: "hello world!" }, function (
-//     err,
-//     data,
-//     response
-// ) {
-//     console.log(data);
-// });
+ 
 
 T.post("statuses/update", { status: "hello world!" }, function (
     err,
